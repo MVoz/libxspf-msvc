@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23821D58-3979-48D4-9443-8ACA72D5457F}</ProjectGuid>
+    <RootNamespace>libxspf</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include\;..\Expat\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;COMPILED_FROM_DSP;XML_UNICODE_WCHAR_T;XML_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include\;..\Expat\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;COMPILED_FROM_DSP;XML_UNICODE_WCHAR_T;XML_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\;..\Expat\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;COMPILED_FROM_DSP;XML_UNICODE_WCHAR_T;XML_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\;..\Expat\;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;COMPILED_FROM_DSP;XML_UNICODE_WCHAR_T;XML_STATIC;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>..\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtension.h" />
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtensionReader.h" />
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtensionWriter.h" />
+    <ClInclude Include="..\..\include\xspf\Xspf.h" />
+    <ClInclude Include="..\..\include\xspf\XspfChunkCallback.h" />
+    <ClInclude Include="..\..\include\xspf\XspfData.h" />
+    <ClInclude Include="..\..\include\xspf\XspfDateTime.h" />
+    <ClInclude Include="..\..\include\xspf\XspfDefines.h" />
+    <ClInclude Include="..\..\include\xspf\XspfExtension.h" />
+    <ClInclude Include="..\..\include\xspf\XspfExtensionReader.h" />
+    <ClInclude Include="..\..\include\xspf\XspfExtensionReaderFactory.h" />
+    <ClInclude Include="..\..\include\xspf\XspfExtensionWriter.h" />
+    <ClInclude Include="..\..\include\xspf\XspfIndentFormatter.h" />
+    <ClInclude Include="..\..\include\xspf\XspfProps.h" />
+    <ClInclude Include="..\..\include\xspf\XspfReader.h" />
+    <ClInclude Include="..\..\include\xspf\XspfReaderCallback.h" />
+    <ClInclude Include="..\..\include\xspf\XspfSeamlessFormatter.h" />
+    <ClInclude Include="..\..\include\xspf\XspfStack.h" />
+    <ClInclude Include="..\..\include\xspf\XspfToolbox.h" />
+    <ClInclude Include="..\..\include\xspf\XspfTrack.h" />
+    <ClInclude Include="..\..\include\xspf\XspfVersion.h" />
+    <ClInclude Include="..\..\include\xspf\XspfWriter.h" />
+    <ClInclude Include="..\..\include\xspf\XspfXmlFormatter.h" />
+    <ClInclude Include="..\..\src\XspfDataWriter.h" />
+    <ClInclude Include="..\..\src\XspfPropsWriter.h" />
+    <ClInclude Include="..\..\src\XspfSkipExtensionReader.h" />
+    <ClInclude Include="..\..\src\XspfStrictReaderCallback.h" />
+    <ClInclude Include="..\..\src\XspfTrackWriter.h" />
+    <ClInclude Include="..\Expat\ascii.h" />
+    <ClInclude Include="..\Expat\asciitab.h" />
+    <ClInclude Include="..\Expat\expat.h" />
+    <ClInclude Include="..\Expat\expat_external.h" />
+    <ClInclude Include="..\Expat\iasciitab.h" />
+    <ClInclude Include="..\Expat\internal.h" />
+    <ClInclude Include="..\Expat\latin1tab.h" />
+    <ClInclude Include="..\Expat\nametab.h" />
+    <ClInclude Include="..\Expat\utf8tab.h" />
+    <ClInclude Include="..\Expat\winconfig.h" />
+    <ClInclude Include="..\Expat\xmlrole.h" />
+    <ClInclude Include="..\Expat\xmltok.h" />
+    <ClInclude Include="..\Expat\xmltok_impl.h" />
+    <ClInclude Include="..\uriparser\Uri.h" />
+    <ClInclude Include="..\uriparser\UriBase.h" />
+    <ClInclude Include="..\uriparser\UriCommon.h" />
+    <ClInclude Include="..\uriparser\UriDefsAnsi.h" />
+    <ClInclude Include="..\uriparser\UriDefsConfig.h" />
+    <ClInclude Include="..\uriparser\UriDefsUnicode.h" />
+    <ClInclude Include="..\uriparser\UriIp4.h" />
+    <ClInclude Include="..\uriparser\UriIp4Base.h" />
+    <ClInclude Include="..\uriparser\UriNormalizeBase.h" />
+    <ClInclude Include="..\uriparser\UriParseBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtension.cpp" />
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtensionReader.cpp" />
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtensionWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfChunkCallback.cpp" />
+    <ClCompile Include="..\..\src\XspfData.cpp" />
+    <ClCompile Include="..\..\src\XspfDataWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfDateTime.cpp" />
+    <ClCompile Include="..\..\src\XspfExtension.cpp" />
+    <ClCompile Include="..\..\src\XspfExtensionReader.cpp" />
+    <ClCompile Include="..\..\src\XspfExtensionReaderFactory.cpp" />
+    <ClCompile Include="..\..\src\XspfExtensionWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfIndentFormatter.cpp" />
+    <ClCompile Include="..\..\src\XspfProps.cpp" />
+    <ClCompile Include="..\..\src\XspfPropsWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfReader.cpp" />
+    <ClCompile Include="..\..\src\XspfReaderCallback.cpp" />
+    <ClCompile Include="..\..\src\XspfSeamlessFormatter.cpp" />
+    <ClCompile Include="..\..\src\XspfSkipExtensionReader.cpp" />
+    <ClCompile Include="..\..\src\XspfStrictReaderCallback.cpp" />
+    <ClCompile Include="..\..\src\XspfToolbox.cpp" />
+    <ClCompile Include="..\..\src\XspfTrack.cpp" />
+    <ClCompile Include="..\..\src\XspfTrackWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfWriter.cpp" />
+    <ClCompile Include="..\..\src\XspfXmlFormatter.cpp" />
+    <ClCompile Include="..\Expat\xmlparse.c" />
+    <ClCompile Include="..\Expat\xmlrole.c" />
+    <ClCompile Include="..\Expat\xmltok.c" />
+    <ClCompile Include="..\Expat\xmltok_impl.c" />
+    <ClCompile Include="..\Expat\xmltok_ns.c" />
+    <ClCompile Include="..\uriparser\UriCommon.c" />
+    <ClCompile Include="..\uriparser\UriCompare.c" />
+    <ClCompile Include="..\uriparser\UriEscape.c" />
+    <ClCompile Include="..\uriparser\UriFile.c" />
+    <ClCompile Include="..\uriparser\UriIp4.c" />
+    <ClCompile Include="..\uriparser\UriIp4Base.c" />
+    <ClCompile Include="..\uriparser\UriNormalize.c" />
+    <ClCompile Include="..\uriparser\UriNormalizeBase.c" />
+    <ClCompile Include="..\uriparser\UriParse.c" />
+    <ClCompile Include="..\uriparser\UriParseBase.c" />
+    <ClCompile Include="..\uriparser\UriQuery.c" />
+    <ClCompile Include="..\uriparser\UriRecompose.c" />
+    <ClCompile Include="..\uriparser\UriResolve.c" />
+    <ClCompile Include="..\uriparser\UriShorten.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

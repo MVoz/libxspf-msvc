@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Expat">
+      <UniqueIdentifier>{d3c04bd1-d63d-4796-9860-99087b6ea022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uriparser">
+      <UniqueIdentifier>{28ae0c77-7b52-4d8b-8353-dfa5ed518451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xspf">
+      <UniqueIdentifier>{a3612497-ebbc-441d-8204-1c9430989332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xspf\ProjectOpus">
+      <UniqueIdentifier>{48990a33-96bc-405f-ae86-6d95ccc1593f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Expat\ascii.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\asciitab.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\expat.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\expat_external.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\iasciitab.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\internal.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\latin1tab.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\nametab.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\utf8tab.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\winconfig.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\xmlrole.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\xmltok.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Expat\xmltok_impl.h">
+      <Filter>Expat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\Uri.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriBase.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriCommon.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriDefsAnsi.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriDefsConfig.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriDefsUnicode.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriIp4.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriIp4Base.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriNormalizeBase.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uriparser\UriParseBase.h">
+      <Filter>uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\Xspf.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfChunkCallback.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfData.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\XspfDataWriter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfDateTime.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfDefines.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfExtension.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfExtensionReader.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfExtensionReaderFactory.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfExtensionWriter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfIndentFormatter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfProps.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\XspfPropsWriter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfReader.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfReaderCallback.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfSeamlessFormatter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\XspfSkipExtensionReader.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfStack.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\XspfStrictReaderCallback.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfToolbox.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfTrack.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\XspfTrackWriter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfVersion.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfWriter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\XspfXmlFormatter.h">
+      <Filter>xspf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtension.h">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtensionReader.h">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xspf\ProjectOpus\ProjectOpusPlaylistExtensionWriter.h">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Expat\xmlparse.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Expat\xmlrole.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Expat\xmltok.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Expat\xmltok_impl.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Expat\xmltok_ns.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriCommon.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriCompare.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriEscape.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriFile.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriIp4.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriIp4Base.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriNormalize.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriNormalizeBase.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriParse.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriParseBase.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriQuery.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriRecompose.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriResolve.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uriparser\UriShorten.c">
+      <Filter>uriparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfChunkCallback.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfData.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfDataWriter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfDateTime.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfExtension.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfExtensionReader.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfExtensionReaderFactory.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfExtensionWriter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfIndentFormatter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfProps.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfPropsWriter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfReader.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfReaderCallback.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfSeamlessFormatter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfSkipExtensionReader.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfStrictReaderCallback.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfToolbox.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfTrack.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfTrackWriter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfWriter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\XspfXmlFormatter.cpp">
+      <Filter>xspf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtension.cpp">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtensionReader.cpp">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ProjectOpus\ProjectOpusPlaylistExtensionWriter.cpp">
+      <Filter>xspf\ProjectOpus</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

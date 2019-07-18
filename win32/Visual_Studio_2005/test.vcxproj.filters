@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CppTest">
+      <UniqueIdentifier>{e207ba22-b815-4dbe-a8c8-a22e93b0aa63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectOpus">
+      <UniqueIdentifier>{63e68276-1576-40e5-ba53-19cb88fe4aa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CppTest\collectoroutput.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\compileroutput.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\htmloutput.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\missing.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\source.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\suite.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\textoutput.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\time.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\utils.cpp">
+      <Filter>CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\ProjectOpus\ProjectOpusSuite.cpp">
+      <Filter>ProjectOpus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\ChunkCallbackSuite.cpp" />
+    <ClCompile Include="..\..\test\DateTimeSuite.cpp" />
+    <ClCompile Include="..\..\test\ExtensionReaderFactorySuite.cpp" />
+    <ClCompile Include="..\..\test\MaliciousXmlSuite.cpp" />
+    <ClCompile Include="..\..\test\MemoryModelSuite.cpp" />
+    <ClCompile Include="..\..\test\OfficialSuite.cpp" />
+    <ClCompile Include="..\..\test\ReadWriteSuite.cpp" />
+    <ClCompile Include="..\..\test\test.cpp" />
+    <ClCompile Include="..\..\test\WhiteSpaceSuite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CppTest\config.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-assert.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-collectoroutput.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-compileroutput.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-htmloutput.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-output.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-source.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-suite.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-textoutput.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-time.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\missing.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\utils.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\winconfig.h">
+      <Filter>CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\ProjectOpus\ProjectOpusSuite.h">
+      <Filter>ProjectOpus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\ChunkCallbackSuite.h" />
+    <ClInclude Include="..\..\test\DateTimeSuite.h" />
+    <ClInclude Include="..\..\test\ExtensionReaderFactorySuite.h" />
+    <ClInclude Include="..\..\test\MaliciousXmlSuite.h" />
+    <ClInclude Include="..\..\test\MemoryModelSuite.h" />
+    <ClInclude Include="..\..\test\OfficialSuite.h" />
+    <ClInclude Include="..\..\test\ReadWriteSuite.h" />
+    <ClInclude Include="..\..\test\WhiteSpaceSuite.h" />
+  </ItemGroup>
+</Project>
